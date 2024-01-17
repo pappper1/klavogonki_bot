@@ -1,7 +1,26 @@
-user_id = '11111'
+user_id = '773010'
 
 def cookies_conf(previous_game_id):
-	cookies = {}
+	cookies = {
+		'__utmc':'208942541',
+		'_ym_uid':'169842420138073774',
+		'_ym_d':'1698424201',
+		'PHPSESSID':'ucojr4l6n96bkkv55orab4iqo4',
+		'__gads':'ID=656801ee93076d96-22b64fd7ace40001:T=1698424218:RT=1699040681:S=ALNI_MYXmA5m189SufnEKCsWbTLg6_wXOw',
+		'__gpi':'UID=00000caa322d88e2:T=1698424218:RT=1699040681:S=ALNI_MY7SLNbit9EwzUOQDRZhAtkMTQBPQ',
+		'played_once_already':'1',
+		'__prefs2':'chat_active_room%3Dgame%7Clowspeed%3D1%7Cstats_gametype%3Dvoc-8835%7Cparam_keyboard%3Dtrue%7Cchat-game-hide%3Dtrue%7Chide_gametype_alert_normal%3D1',
+		'__utma':'208942541.401237835.1698424201.1702401027.1703274228.24',
+		'__utmz':'208942541.1703274228.24.15.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)',
+		'__utmt':'1',
+		'_ym_isad':'2',
+		'_ym_visorc':'w',
+		'XSRF-TOKEN':'3ca27da6',
+		'user':'popnyjdrochila%3Bcaa377ec546f063d3ee1db3b48b8d60c',
+		'ul':'94cac%2C93eae',
+		'__utmb':'208942541.11.10.1703274228',
+		'__game__':f'{previous_game_id}',
+	}
 
 	return cookies
 
